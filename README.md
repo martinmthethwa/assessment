@@ -1,29 +1,23 @@
-TASK 1: Reports Dashboard
-Task description:
-Theme the following 2 urls /portalinformation   &   /developerengagement to match their wireframes (check also in figma under reports). These are business owner views so use backend admin panel to give your account Business Owner right    /admin/people.
+FullStack Technical Assessment:
+Pull repo (master branch) with the project assets: wireframes, image assets and needed SQL dump.
+Use for backend: SQL, Php 7.4
+For Frontend: JS [including jQuery], HTML , CSS;  (document any other libraries used)
+Create two views to match exactly how the wireframes look: A Prelog in screen and a post Log in screen. It should use same color hex, icons, images, and dimensions as shown in the wireframe. Also, documentation for installation steps and anything that was noteworthy such as stack and tools used.
 
-Estimate: 3hrs
+Once complete push to the repo on a new a new branch called dev
+Register/Login page
+Make the position on the menu sticky so that it’s always at the top of the page (extra task)
+Must login with given credentials 
+Or onboard new user to the database via the Create New Account form
+Highlight ability to use SQL/PHP to access Database
+Apps Page
+Once user logs in they should be seeing the My Apps Page 
 
-Goals:
-1.	Create new branch of apipulse repo on local called “reports_test”
-2.	Create 2 page_twig files for the views 
-3.	Append necessary html to    \apipulse-sites\web\modules\custom\reports\src\Form PortalInformation.php and  DeveloperEngagement.php    
-4.	Push changes to repo (don’t create PR)
-5.	Add all the css for those new pages in a new css file called devtest.css (remember to add new css stylesheets to theme)
-6.	Reuse icons in icons folder
-7.	The CSS should be reusable on the 2 views and not affect other views
-
-TASK 2: Mobile View for My Apps
-Task description:
-Create mobile views for My Apps page.  Use normal dev credentials.
-
-Estimate: 4hrs
-Goals:
-1.	Put css in devtest.css and use same repo
-2.	Don’t create any twigs and only edit existing
-3.	Document anything that you could not do or did if note worthy
-4.	Account for scenario where there are no apps created
+On the menu (shown above) show user icon, full name and email
 
 
-
-
+ 
+Add JS owl carousel that cycles through 5 items showing by default 4 items
+	It should auto play and have infinity looping
+	Alternatively, you can use any carousel library you prefer as long as you can justify it
+Add 2 sandbox app cards with dumpy text from the wireframe that toggle when clicked
